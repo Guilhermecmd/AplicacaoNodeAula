@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "jest --ci"
+    "start": "node app",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
   },
   "author": "",
   "license": "ISC"
