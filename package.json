@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "test:ci": "jest --ci "
+    "test:ci": "jest --ci"
   
   },
   "keywords": [],
